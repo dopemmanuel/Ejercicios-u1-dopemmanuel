@@ -1,0 +1,148 @@
+Categorías Principales de Pylint:
+
+1. Convenciones (C)
+C0103 - Invalid name
+
+C0111 - Missing docstring
+
+C0112 - Empty docstring
+
+C0113 - Unneeded not
+
+C0114 - Missing module docstring
+
+C0115 - Missing class docstring
+
+C0116 - Missing function docstring
+
+C0121 - Missing required attribute
+
+C0122 - Missing parameter in function call
+
+C0123 - Use of eval
+
+2. Refactorización (R)
+R0901 - Too many ancestors
+
+R0902 - Too many instance attributes
+
+R0903 - Too few public methods
+
+R0904 - Too many public methods
+
+R0911 - Too many return statements
+
+R0912 - Too many branches
+
+R0913 - Too many arguments
+
+R0914 - Too many local variables
+
+R0915 - Too many statements
+
+R0916 - Too many boolean expressions
+
+3. Advertencias (W)
+W0101 - Unreachable code
+
+W0102 - Dangerous default value
+
+W0104 - Statement seems to have no effect
+
+W0105 - String statement has no effect
+
+W0106 - Expression assigned to nothing
+
+W0107 - Unnecessary pass statement
+
+W0108 - Lambda not assigned
+
+W0109 - Duplicate key in dictionary
+
+W0110 - Map/filter on lambda could be replaced
+
+4. Errores (E)
+E0001 - Syntax error
+
+E0100 - init method return value
+
+E0101 - Explicit return in init
+
+E0102 - Function already defined
+
+E0103 - Not in loop
+
+E0104 - Return outside function
+
+E0105 - Yield outside function
+
+E0106 - Return with argument inside generator
+
+E0107 - Use of non-existent operator
+
+E0108 - Duplicate argument name
+
+5. Fatal (F)
+F0001 - Error occurred
+
+F0002 - Unexpected error
+
+F0010 - Error while parsing
+
+6. Información (I)
+I0011 - Locally disabling message
+
+I0012 - Locally enabling message
+
+I0013 - Not managing to fix line
+
+I0020 - Suppressed message
+
+I0021 - Useless suppression
+
+7. Convenciones de Código (C02xx - C05xx)
+C0200 - Consider using enumerate
+
+C0201 - Consider iterating dictionary
+
+C0301 - Line too long
+
+C0302 - Too many lines in module
+
+C0303 - Trailing whitespace
+
+C0304 - Missing final newline
+
+C0305 - Trailing newlines
+
+8. Métricas (C09xx)
+C0901 - Line too long
+
+C0902 - Too many lines in module
+
+C0903 - Too many statements
+
+Códigos Específicos Comunes
+Análisis de Diseño:
+R0401 - Cyclic import
+
+R0801 - Similar lines in multiple files
+
+Formato:
+C0301 - Line too long
+
+C0321 - More than one statement per line
+
+C0325 - Unnecessary parens
+
+C0326 - Bad whitespace
+
+Nombres:
+C0102 - Blacklisted name
+
+C0104 - Disallowed name
+
+Tipos:
+C0202 - Class method should have cls as first argument
+
+C0203 - Metaclass method should have mcs as first argument
