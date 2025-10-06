@@ -13,7 +13,7 @@ else:
 
 
 if len(dia) == 2 or 1 and len(mes) == 2 or 1 and len(year) == 4:
-    
+
     dia = int(dia)
     mes = int(mes)
     year = int(year)

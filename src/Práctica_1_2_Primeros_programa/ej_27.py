@@ -10,4 +10,3 @@ unidades = int(input("Cuantas unidades te vas a llevar? "))
 Total = precio * unidades
 
 print(f"{producto} cuesta {precio:09.2f}€, por unidad que son {unidades:03d} serian unos {Total:011.2f}€")
-
