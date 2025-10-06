@@ -3,7 +3,7 @@
 el usuario, y c y r son el cociente y el resto de la división entera respectivamente: """
 
 
-n = int(input("Ingrese el primer numero: ")) 
+n = int(input("Ingrese el primer numero: "))
 m = int(input("Ingrese el segundo numero entero: "))
 
 c = n // m
