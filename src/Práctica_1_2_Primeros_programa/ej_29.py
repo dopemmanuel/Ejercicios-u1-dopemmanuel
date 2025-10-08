@@ -19,3 +19,17 @@ if age > 125:
     print(f"Parece que dios si tiene favoritos, eres longevo!!\nTe llamas {name} y tienes {age} años, ya has sobrepasado la edad maxima. ")
 else:
     print(f"Te llamas {name} y tienes {age} años, te quedan aún {max_age} años por cumplir")"""
+# Cálculo de un número aleatorio entre dos valores
+import random
+
+active = True
+while active:
+    try:
+        num1 = int(input("Ingresa el numero: "))
+        num2 = int(input("Ingresa el segundo numero: "))
+
+        print(f"Numero Random: {random.randint(num1, num2)}")
+        active = False
+
+    except Exception as _: # pylint: disable=broad-except
+        print("Error!!")
