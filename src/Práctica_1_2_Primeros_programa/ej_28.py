@@ -53,8 +53,8 @@ while active:
             continue
 
         # Calcular el área (fórmula de Herón)
-        s = (num1 + num2 + num3) / 2
-        area = (s * (s - num1) * (s - num2) * (s - num3)) ** 0.5
+        perimetro = (num1 + num2 + num3) / 2
+        area = (perimetro * (perimetro - num1) * (perimetro - num2) * (perimetro - num3)) ** 0.5
         print(f"El área del triángulo es: {area:.2f}")
         active = False
 
