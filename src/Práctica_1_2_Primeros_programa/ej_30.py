@@ -33,3 +33,21 @@ if (total - inicial) % incremento != 0:
 
 print(f"SERIE => {serie}")
 """
+# Escribir un programa que determine si un número es primo
+
+num1 = int(input("Ingresa el numero y te dire si es primo o no: "))
+found = False
+i = 2
+if num1 <= 1:
+    print("No es primo")
+elif num1 == 2:
+    print("Es primo")
+else:
+    while i < num1 and not found:
+        if (num1 % i) == 0:
+            found = True
+        i += 1
+    if found:
+        print("No es primo")
+    else:
+        print("Es primo")
